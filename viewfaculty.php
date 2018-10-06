@@ -10,7 +10,7 @@ $id=201650010;
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Bootstrap Example</title>
+    <title>Student Portal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery.min.js"></script>
@@ -24,6 +24,9 @@ $id=201650010;
                 font-weight:bold;
             }
 
+            .card-head{
+                background-color: red;
+            }
 
 
     </style>
@@ -82,7 +85,7 @@ $id=201650010;
             ?>
 
             <div class="card">
-                <div class="card-header" id="c<?php echo $row['id']; ?>">
+                <div class="card-header caard-head" id="c<?php echo $row['id']; ?>">
                     <h5 class="mb-<?php echo $row['id']; ?>">
                         <button class="btn btn-link" data-toggle="collapse"  data-target="#collapse<?php echo $row['id']; ?>"  aria-controls="collapse<?php echo $row['cname']; ?>">
                         <b><?php echo $row['fname'].' '.$row['lname']; ?></b>

@@ -11,7 +11,7 @@ $id=201650010;
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Bootstrap Example</title>
+    <title>Student Portal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jquery.min.js"></script>
@@ -91,7 +91,7 @@ if ($result->num_rows > 0)
             <div class="card">
                 <div class="card-header" id="c<?php echo $row['subjectid']; ?>">
                     <h5 class="mb-<?php echo $row['subjectid']; ?>">
-                        <button class="btn btn-link" data-toggle="collapse"  data-target="#collapse<?php echo $row['id']; ?>"  aria-controls="collapse<?php echo $row['cname']; ?>">
+                        <button class="btn btn-link" data-toggle="collapse"  data-target="#collapse<?php echo $row['subjectid']; ?>"  aria-controls="collapse<?php echo $row['subjectid']; ?>">
                         <b><?php echo $subjectname?></b>
                     </h5>
                 </div>

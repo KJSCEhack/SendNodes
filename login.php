@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Bootstrap Example</title>
+    <title>Student Portal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/login.css">
@@ -40,7 +40,7 @@
                 <div class="forgot">
                     <a href="reset.html">Forgot password?</a>
                 </div>
-                <button type="submit" class="btn btn-primary">Login</button>
+                <a href="calender.php" type="button" class="btn btn-primary">Login</a>
 
             </form>
         </div>
